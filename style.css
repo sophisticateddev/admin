@@ -1,19 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
 
    *{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
+     font-family: 'Signika', sans-serif;
    }
+
+   body{
+     background-color: #F8FBFF;
+   }
+
+   ::placeholder {
+    color: rgba(0, 0, 0, .5);
+    padding-left: 10px;
+  }
   
     .row.content {
       height: 100vh;
     }
 
     .topnav{
-      margin: 15px 30px;
+      padding: 15px 30px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      background: #fff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
     }
 
     .user {
@@ -33,10 +46,9 @@
       padding-right: 10px;
     }
     
-    /* Set gray background color and 100% height */
     .sidenav {
       background-color: #0267C1;
-      height: 100%;
+      height: 100vh;
       padding: 0!important;
     }
 
@@ -118,7 +130,6 @@
       font-size: 14px;
     }
     
-    /* Set black background color, white text and some padding */
     footer {
       background-color: #555;
       color: white;
@@ -151,6 +162,80 @@
       margin-left: 5px;
       font-size: 12px;
       cursor: pointer;
+    }
+
+    .green{
+      color: #09C532;
+    }
+
+    .red{
+      color: red;
+    }
+
+    /* Edit page */
+    .heading{
+      font-size: 24px;
+    }
+
+    .sub_heading {
+      padding-top: 10px;
+      font-size: 18px;
+    }
+    label{
+      font-size: 14px;
+    }
+
+    input{
+      width: 1009px;
+      height: 50px;
+      border: 0.1 solid rgba(0, 0, 0, 0.1);
+    }
+
+    .dem{
+      margin-top: 20px;
+    }
+
+    textarea {
+      width: 1009px;
+      height: 193px;
+    }
+
+    .row2{
+      text-align: end;
+      margin: 20px 80px;
+    }
+    .btn{
+      margin-bottom: 50px;
+      color: #fff;
+      background: #FFAB0D;
+      height: 40px;
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+
+    .btn:hover{
+      background: rgb(226, 149, 4);
+      color: #fff!important;
+    }
+
+    /* staffs */
+    .round {
+      margin-top: 10px;
+    }
+
+    .btn-outline{
+      background: none;
+      border: 2px solid #FFAB0D;
+      height: 40px;
+      padding: 10px 20px;
+      font-size: 14px;
+      border-radius: 5px;
+      color: #FFAB0D
+    }
+
+    .btn-outline:hover{
+      background: #FFAB0D;
+      color: #fff!important;
     }
 
     
