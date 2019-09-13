@@ -8,7 +8,7 @@
    }
 
    body{
-     background-color: #F8FBFF;
+     background-color: #F8FBFF!important;
    }
 
    ::placeholder {
@@ -122,8 +122,14 @@
       font-size: 14px;
     }
 
+    .table {
+      text-align: center;
+      background: #fff;
+    }
+
     .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
       border-bottom-width: 1px!important;
+      text-align: center
     }
 
     tbody{
