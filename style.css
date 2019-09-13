@@ -1,0 +1,165 @@
+
+   *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+  
+    .row.content {
+      height: 100vh;
+    }
+
+    .topnav{
+      margin: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .user {
+      background: #c4c4c4;
+      border-radius: 50%;
+      padding: 10px;
+      width: 40px;
+      height: 40px; 
+    }
+
+    .topnav_end{
+      display: flex;
+      align-items: center;
+    }
+
+    .topnav_end h6 {
+      padding-right: 10px;
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #0267C1;
+      height: 100%;
+      padding: 0!important;
+    }
+
+    .nav-pills>li>a {
+      border-radius: none!important;
+      color: #fff;
+    }
+
+    .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+      background-color: #fff!important;
+      color: #FFAB0D!important;
+      border-left: 5px solid #FFAB0D;
+    }
+
+    .icons{
+      width: 24px;
+      height: 24px;
+      padding-right: 10px;
+    }
+
+    .selected {
+      background: linear-gradient(117.17deg, #0267C1 0%, #9C6EE8 100%);
+    }
+    
+    .card1{
+      border-radius: 5px;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 30px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      cursor: pointer;
+      margin: 10px 0;
+      width: 199px;
+      height: 134px;
+    }
+
+    .card{
+      border-radius: 5px;
+      color: rgba(0, 0, 0, 0.8);
+      background: #EDEDED;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 30px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      cursor: pointer;
+      margin: 10px 0;
+      width: 199px;
+      height: 134px;
+    }
+
+    .first {
+      font-size: 24px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .second{
+      font-size: 30px;
+      margin: 0;
+      padding: 0;
+    }
+    .third{
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    thead {
+      font-size: 14px;
+    }
+
+    .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+      border-bottom-width: 1px!important;
+    }
+
+    tbody{
+      font-size: 14px;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    .sel {
+      background: #fff;
+      height: 50px;
+      width: 200px;
+      color: rgba(0, 0, 0, 0.8);
+      font-weight: 600;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 20px 0;
+    }
+    .otable{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .copy{
+      display: flex;
+    }
+
+    .copy h4 {
+      padding: 10px;
+      background: #e1e1e1;
+      border-radius: 2px;
+      margin-left: 5px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  
