@@ -28,6 +28,40 @@
       background: #fff;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
     }
+    .topnav input{
+      width: 300px;
+      padding-left: 10px;
+      border-radius: 5px;
+      border: 1px solid #dfe1e5;
+    }
+
+    .topnav input:hover{
+      width: 300px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
+      border: none;
+    }
+
+    .topnav .search-container{
+      margin-right: -600px;
+    }
+
+    .topnav .search-container button {
+      padding: 6px 20px;
+      height: 40px;
+      background: #0267C1;
+      font-size: 17px;
+      border:none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .topnav .search-container button:hover {
+      box-shadow: 0px 0px 10px rgba(16, 30, 88, 0.25);
+    }
+
+    .fa-search{
+      color: #fff;
+    }
 
     .user {
       background: #c4c4c4;
@@ -53,8 +87,13 @@
     }
 
     .nav-pills>li>a {
-      border-radius: none!important;
+      border-radius: 0!important;
       color: #fff;
+    }
+
+    .nav-pills>li>a:hover {
+      background: #fff!important;
+      color: #FFAB0D;
     }
 
     .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
@@ -71,6 +110,24 @@
 
     .selected {
       background: linear-gradient(117.17deg, #0267C1 0%, #9C6EE8 100%);
+    }
+
+    .dem input{
+      width: 80%;
+      height: 40px;
+      padding-left: 10px;
+      border: 1px solid #dfe1e5;
+      border-radius: 5px;
+    }
+
+    textarea {
+      width: 80%;
+      height: 193px;
+      border: 1px solid #dfe1e5;
+      border-radius: 5px;
+      padding-left: 10px;
+      padding-top: 5px;
+      resize: none;
     }
     
     .card1{
@@ -191,24 +248,17 @@
       font-size: 14px;
     }
 
-    input{
-      width: 1009px;
-      height: 50px;
-      border: 0.1 solid rgba(0, 0, 0, 0.1);
-    }
+    
 
     .dem{
       margin-top: 20px;
     }
 
-    textarea {
-      width: 1009px;
-      height: 193px;
-    }
+    
 
     .row2{
       text-align: end;
-      margin: 20px 80px;
+      margin: 20px 215px;
     }
     .btn{
       margin-bottom: 50px;
@@ -228,6 +278,7 @@
     .round {
       margin-top: 10px;
     }
+    
 
     .btn-outline{
       background: none;
@@ -243,6 +294,102 @@
       background: #FFAB0D;
       color: #fff!important;
     }
+
+    /* Blog */
+    .post{
+      color: #FFAB0D;
+    }
+    .dem_blog{
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .dem_blog>input{
+      width: 70%;
+      margin-right: 20px;
+      margin-left: 10px;
+    }
+
+    .dem_blog .user{
+      margin-right: 5px;
+    }
+
+    .blue{
+      color: #0267C1;
+      cursor: pointer;
+    }
+
+    .toolbar{
+      background: #fff;
+      padding: 10px;
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+      width: 82%;
+    }
+
+    .seperator::after {
+      content: " ";
+      border-right: 1px solid #c4c4c4;
+      height: 20px;
+    }
+    .compose{
+      border: none;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+    }
+
+    .undo, 
+    .redo, 
+    .Italic, 
+    .Underline, 
+    .strike-through,
+    .highlight,
+    .insert-image,
+    .insert-video,
+    .insert-emoji,
+    .alignment {
+      padding-right: 10px;
+    }
+
+    .font-selector, 
+    .bold, 
+    .font-color, 
+    .create-link{
+      padding: 0 10px;
+    }
+
+    .font-weight {
+      margin: 0 10px;
+    }
+
+    .dem_blog-post textarea{
+      height: 70vh;;
+    }
+    .btn-grey{
+      margin-bottom: 50px;
+      color:rgba(0, 0, 0, 0.8);
+      background: #f1f1f1;
+      height: 40px;
+      padding: 10px 20px;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .btn-grey:hover{
+      box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1); 
+    }
+    .buttons{
+      width: 80%;
+      text-align: end;
+    }
+
+    /*coupons*/
+    
 
     
     /* On small screens, set height to 'auto' for sidenav and grid */

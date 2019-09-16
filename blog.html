@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Admin Traindemy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  
+  
+</head>
+<body>
+<div class="topnav">
+  <img src="/img/traindemy-logo-horizontal (2).png" class="logo" alt="Logo">
+  <div class="search-container">
+    <form action="#">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+  <div class="topnav_end">
+    <h6>example@email.com</h6> <img src="/img/user.svg" alt="" class="user">
+  </div>
+    
+</div>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <ul class="nav nav-pills nav-stacked white">
+        <li class="active"><a href="index.html"><img src="/img/dashboard.svg" class="icons" alt=""> Dashboard</a></li>
+        <li><a href="subscription.htm"><span><img src="/img/subscription.svg" class="icons" alt=""> Subscriptions</a></li>
+        <li><a href="blog.html"><img src="/img/blog.svg" class="icons" alt="">Blog</a></li>
+        <li><a href="edit.html"><img src="/img/edit.svg" class="icons" alt="">Edit Contents</a></li>
+        <li><a href="staffs.html"><img src="/img/staff.svg" class="icons" alt="">Staffs</a></li>
+        <li><a href="payments.html"><img src="/img/payments.svg" class="icons" alt="">Payments</a></li>
+        <li><a href="coupon.html"><img src="/img/payments.svg" class="icons" alt="">Mange Coupons</a></li>
+        <li><a href="settings.html"><img src="/img/setting.svg" class="icons" alt="">Settings</a></li>
+        <li><a href="help.html"><img src="/img/help.svg" class="icons" alt="">Help</a></li>
+        <li><a href="#"><img src="/img/sign_out.svg" class="icons" alt="">Sign Out</a></li>
+      </ul>
+    </div>
+
+    <div class="col-sm-10">
+        <h2 class="heading">Blog Posts</h2>
+        <div class="dem dem_blog">
+          <label for="post" class="post">Post</label>
+          <input type="text" name="post" id="post" placeholder="Post title">
+          <img src="/img/user.svg" alt="" class="user"><h6>posting as <span class="blue">Vincent</span></h6>
+        </div>
+        <div class="col-sm-12">
+          <div class="row toolbar">
+            <button class="compose">Compose</button>
+            <div class="undo"><i class="fas fa-undo"></i></i></div>
+            <div class="redo"><i class="fas fa-redo-alt"></i></i></div>
+            <div class="seperator"></div>
+            <div class="font-selector"><img src="/img/Font-family.png"  alt="" ></div>
+            <div class="font-size-selector"><img src="/img/Font_size.png" alt=""  ></div>
+            <div class="font-weight"><select name="font-weight" id="font-weight">
+              <option value="Normal">Normal</option>
+              <option value="Heading">Heading</option>
+              <option value="Subheading">Subheading</option>
+              <option value="Minor_heading">Minor heading</option>
+              
+            </select></div>
+            <div class="seperator"></div>
+            <div class="bold"><i class="fas fa-bold"></i></div>
+            <div class="Italic"><i class="fa fa-italic"></i></div>
+            <div class="Underline"><i class="fas fa-underline"></i></div>
+            <div class="strike-through"><i class="fa fa-strikethrough"></i></div>
+            <div class="seperator"></div>
+            <div class="font-color"><i class="fas fa-palette"></i></div>
+            <div class="highlight"><i class="fa fa-highlighter"></i></div>
+            <div class="seperator"></div>
+            <div class="create-link"><a href="#">Make link</a></div>
+            <div class="insert-image"><i class="fas fa-images"></i></div>
+            <div class="insert-video"><i class="fas fa-video"></i></div>
+            <div class="insert-emoji"><i class="far fa-smile-wink"></i></div>
+            <div class="alignment"><i class="fa fa-align-center"></i></div>
+            <div class="quote"><i class="fas fa-quote-left"></i></div>
+          </div>
+        </div>
+        <div class="dem dem_blog-post">
+          <textarea name="term" id="terms"></textarea>
+        </div>
+        <div class="buttons"> 
+          <button class="btn">Publish</button>
+          <button class="btn-grey">Save</button>
+          <button class="btn-grey">Preview</button>
+          <button class="btn-grey">Close</button>
+        </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script
+    src="https://use.fontawesome.com/releases/v5.10.2/js/all.js"
+    data-auto-a11y="true"
+  ></script>
+</html>
