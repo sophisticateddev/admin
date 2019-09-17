@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  
+  <link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css">
   
 </head>
 <body>
@@ -39,16 +39,16 @@
         <li><a href="help.html"><img src="/img/help.svg" class="icons" alt="">Help</a></li>
         <li><a href="#"><img src="/img/sign_out.svg" class="icons" alt="">Sign Out</a></li>
       </ul>
-      
     </div>
 
-    <div class="col-sm-6">
+    <div class="col-sm-10">
+      <div class="col-sm-6">
         <h2 class="heading">Create Coupons</h2>
         <div class="dem">
           <label for="coupon_code">Coupon code</label><br>
           <input type="text" name="coupon_code" id="coupon_code" placeholder="BLACK FRIDAY">
         </div>
-        <div class="dem">
+        <div class="rem">
           <label for="Full_Name">Course</label><br>
           <select name="course" id="course">
             <option value="many_courses">Facinator</option>
@@ -64,21 +64,58 @@
           </select>
         </div>
         <div class="rem">
-          <label for="Full_Name">Employee No.</label><br>
-          <form >
-            <input type="radio" name="reduction" class="button_radio" value="percentage" checked> percentage
-            <input type="radio" name="reduction" value="female"> Amount  
-          </form>
+          <label for="Full_Name">Reduction by</label><br>
+            <label class="radio_container">
+              <input type="radio" checked="checked" name="radio">Percentage<span class="checkmark"></span>
+            </label>
+            <label class="radio_container">
+              <input type="radio" name="radio">Amount<span class="checkmark"></span>
+          </label>
         </div>
-        <div class="dem">
-          <label for="Full_Name">Email</label><br>
-          <input type="text" name="Full_Name" id="Full_Name" placeholder="example@gmail.com">
+        <div class="rem">
+          <label for="reduction">Percentage (%) Reduction</label><br>
+          <input id="reduction" type="number" value="0" min="0" max="100" step="5"/>
         </div>
-        <a href="#" ><img src="/img/add_button.png" class="round" alt="add"></a>
-        <a href="#">View all registered staffs</a>
-        <div class="row2">
-          <button class="btn-outline">Update contents</button>
+          <div class="rem">
+            <label for="user">Number of User</label><br>
+            <input id="user" type="number" value="1" step="1"/>
+          </div>
+          <div class="rem">
+            <label for="date">Expiry Date</label><br>
+            <input type="date" name="user" id="date">
+          </div>
+        <div class="move">
+          <a href="#" class="btn btn_coupon">Create coupon</a>
         </div>
+      </div>
+      <div class="col-sm-6 dem">
+        <label>Manage Coupons</label>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Coupon Code</th>
+              <th>Course</th>
+              <th>Reduction</th>
+              <th>No of Users</th>
+              <th>Exp. Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>BLACK FRIDAY</td>
+              <td>John Doe</td>
+              <td>Facinator Making</td>
+              <td>2</td>
+              <td>21/02/19</td>
+            </tr>
+        </table>
+        <div class="d-flex">
+          <button class="btn-outline">Edit Coupon</button>
+          <button class="btn-red">De-Activate Coupon</button>
+          <button class="btn-green">Re-Activate Coupon</button>
+        </div>
+      </div>
+    </div>
   </div>
   
 </div>
