@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Admin Traindemy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css">
+  
+</head>
+<body>
+<div class="topnav">
+  <img src="/img/traindemy-logo-horizontal (2).png" class="logo" alt="Logo">
+  <div class="search-container">
+    <form action="#">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+  <div class="topnav_end">
+    <h6>example@email.com</h6> <img src="/img/user.svg" alt="" class="user">
+  </div>
+    
+</div>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <ul class="nav nav-pills nav-stacked white">
+        <li class="active"><a href="index.html"><i class="fas fa-tachometer-alt icons"></i> Dashboard</a></li>
+        <li><a href="users.html"><span><i class="fas fa-signal icons"></i> Users</a></li>
+        <li><a href="blog.html"><i class="fas fa-blog icons"></i> Blog</a></li>
+        <li><a href="edit.html"><i class="fas fa-edit icons"></i> Edit Contents</a></li>
+        <li><a href="staffs.html"><i class="fas fa-briefcase icons"></i> Staffs</a></li>
+        <li><a href="payments.html"><i class="fas fa-file-invoice-dollar icons"></i> Payments</a></li>
+        <li><a href="coupon.html"><i class="fas fa-money-bill-alt icons"></i>Mange Coupons</a></li>
+        <li><a href="settings.html"><i class="fas fa-cogs icons"></i> Settings</a></li>
+        <li><a href="#"><i class="fas fa-sign-out-alt icons"></i> Sign Out</a></li>
+      </ul>
+    </div>
+    <div class="col-sm-10">
+      <h2 class="heading">Staffs Lists</h2>
+      <div class="col-12">         
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>S/N</th>
+                <th>Department</th>
+                <th>Full Name</th>
+                <th>Employee No.</th>
+                <th>Email</th>
+                <th><input type="checkbox" name="staffs"></th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Media</td>
+                <td>John Doe</td>
+                <td>TR001</td>
+                <td>example@traindemy.com</td>
+                <td><input type="checkbox" name="staffs"></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Media</td>
+                <td>John Doe</td>
+                <td>TR001</td>
+                <td>example@traindemy.com</td>
+                <td><input type="checkbox" name="staffs"></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td> Media</td>
+                <td>John Doe</td>
+                <td>TR001</td>
+                <td>example@traindemy.com</td>
+                <td><input type="checkbox" name="staffs"></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td> Media</td>
+                <td>John Doe</td>
+                <td>TR001</td>
+                <td>example@traindemy.com</td>
+                <td><input type="checkbox" name="staffs"></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Media</td>
+                <td>John Doe</td>
+                <td>TR001</td>
+                <td>example@traindemy.com</td>
+                <td><input type="checkbox" name="staffs"></td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td> Media</td>
+                <td>John Doe</td>
+                <td>TR001</td>
+                <td>example@traindemy.com</td>
+                <td><input type="checkbox" name="staffs"></td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Media</td>
+                <td>John Doe</td>
+                <td>TR001</td>
+                <td>example@traindemy.com</td>
+                <td><input type="checkbox" name="staffs"></td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Media</td>
+                <td>John Doe</td>
+                <td>TR001</td>
+                <td>example@traindemy.com</td>
+                <td><input type="checkbox" name="staffs"></td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td> Media</td>
+                <td>John Doe</td>
+                <td>TR001</td>
+                <td>example@traindemy.com</td>
+                <td><input type="checkbox" name="staffs"></td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Media</td>
+                <td>John Doe</td>
+                <td>TR001</td>
+                <td>example@traindemy.com</td>
+                <td><input type="checkbox" name="staffs"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="rowTab">
+          <div class="labels">
+            <Label for="self">Give selected staffs access to</Label>
+          </div>
+          <div class="rightTab">
+            <ul id="self">
+              <li class="check"><label><input type="checkbox" value="1"> All</label></li>
+              <li class="check"><label for="love"><input type="checkbox" value="2"> Blog</label></li>
+              <li class="check"><label for="love"><input type="checkbox" value="3"> FAQ, Terms of Service and About Us</label></li>
+              <li class="check"><label for="love"><input type="checkbox" value="4"> Payments</label></li>
+              <li class="check"><label for="love"><input type="checkbox" value="5"> Subscription</label></li>
+              <li class="check"><label for="love"><input type="checkbox" value="6"> Staff</label></li>
+            </ul>
+            <button class="btn-outline">Grant access</button>
+          </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</html>
