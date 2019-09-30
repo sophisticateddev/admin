@@ -285,7 +285,71 @@
       cursor: pointer;
     }
 
+    .sel_payments{
+      width: 254px;
+      height: 50px;
+      padding-left: 10px;
+      border: none;
+      box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.11);
+      border-radius: 4px;
+      margin: 20px 0;
+    }
 
+    /* Single Payments*/
+    .trainer_payment_type{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .gold{
+      color: #FFAB0D;
+    }
+    .payment_amount{
+      display: flex;
+    }
+
+    .payment_amount h5{
+      padding-right: 250px;
+    }
+
+    .payment_amount input{
+      width: 174px;
+      border-radius: 5px;
+      border: 1px solid #EDEDED;
+      padding: 10px;
+    }
+
+    .min_amount{
+      color: red;
+      margin-left: -20px;
+    }
+
+    .approve_button{
+      margin-top: 30px;
+    }
+
+    .btn_green{
+      background: #09C532;
+      padding: 10px 30px;
+      margin-left: 340px;
+      color: white;
+      border-radius: 4px;
+      width: 177px;
+      height: 50px;
+    }
+
+    .btn_green:hover{
+      color: white;
+      background: rgb(8, 190, 47);
+      text-decoration: none;
+    }
+
+    /* single_nonkey_payments*/
+    .min_amount_sub{
+      color: red;
+      margin-left: 10px;
+    }
 
     /* staffs */
     .round {

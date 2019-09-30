@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Admin Traindemy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css">
+  
+</head>
+<body>
+<div class="topnav">
+  <img src="/img/traindemy-logo-horizontal (2).png" class="logo" alt="Logo">
+  <div class="search-container">
+    <form action="#">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+  <div class="topnav_end">
+    <h6>example@email.com</h6> <img src="/img/user.svg" alt="" class="user">
+  </div>
+    
+</div>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <ul class="nav nav-pills nav-stacked white">
+        <li><a href="index.html"><i class="fas fa-tachometer-alt icons"></i> Dashboard</a></li>
+        <li><a href="users.html"><span><i class="fas fa-signal icons"></i> Users</a></li>
+        <li><a href="blog.html"><i class="fas fa-blog icons"></i> Blog</a></li>
+        <li><a href="edit.html"><i class="fas fa-edit icons"></i> Edit Contents</a></li>
+        <li><a href="staffs.html"><i class="fas fa-briefcase icons"></i> Staffs</a></li>
+        <li class="active"><a href="payments.html"><i class="fas fa-file-invoice-dollar icons"></i> Payments</a></li>
+        <li><a href="coupon.html"><i class="fas fa-money-bill-alt icons"></i>Mange Coupons</a></li>
+        <li><a href="settings.html"><i class="fas fa-cogs icons"></i> Settings</a></li>
+        <li><a href="#"><i class="fas fa-sign-out-alt icons"></i> Sign Out</a></li>
+      </ul>
+    </div>
+
+    <div class="col-sm-10">
+        <h2 class="heading">Payments</h2>
+        <div class="trainer_payment_type">
+          <h4>Paintertainer (TRT0001) <span class="blue">Arts and Crafts</span></h4>
+          <select class="sel_payments">
+            <option value="category">All Payment Types</option>
+            <option value="arts_and_crafts">Monthly</option>
+            <option value="Engineering">Quaterly</option>
+            <option value="agriculture">6 Months</option>
+            <option value="agriculture">Yearly</option>
+          </select>
+        </div>
+        <div class="col-12">         
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>S/N</th>
+                  <th>students</th>
+                  <th>Course</th>
+                  <th>Payment Type</th>
+                  <th>Amount Paid</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>01</td>
+                  <td>TRS0001</td>
+                  <td>Autogele</td>
+                  <td>Yearly</td>
+                  <td>27,000</td>
+                </tr>
+                <tr>
+                  <td>02</td>
+                  <td>TRS0002</td>
+                  <td>Make up</td>
+                  <td>Quaterly</td>
+                  <td>27,000</td>
+                </tr>
+                <tr>
+                  <td>03</td>
+                  <td>TRS0003</td>
+                  <td>Shirt Design</td>
+                  <td>Monthly</td>
+                  <td>27,000</td>
+                </tr>
+                <tr>
+                  <td>04</td>
+                  <td>TRS0004</td>
+                  <td>Painting</td>
+                  <td>6 Months</td>
+                  <td>27,000</td>
+                </tr>
+                <tr>
+                  <td>05</td>
+                  <td>TRS0005</td>
+                  <td>Cinematography</td>
+                  <td>Yearly</td>
+                  <td>27,000</td>
+                </tr>
+                <tr>
+                  <td>06</td>
+                  <td>TRS0006</td>
+                  <td>Autogele</td>
+                  <td>Yearly</td>
+                  <td>27,000</td>
+                </tr>
+                <tr>
+                  <td class="gold">Total:</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>120,000</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        <div class="payment_amount">
+          <h5>Subscription:</h5>
+          <h4 class="min_amount_sub">5,000</h4>
+        </div>
+        <div class="payment_amount">
+          <h5>Minimum Amount:</h5>
+          <h4 class="min_amount">5,000</h4>
+        </div>
+        <div class="payment_amount">
+          <h5>Amount to pay:</h5>
+          <input type="number" id="" placeholder="100,000">
+        </div>
+        <div class="approve_button">
+          <a href="#" class="btn_green">Approve payment</a>
+        </div>
+  </div>
+  
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</html>
